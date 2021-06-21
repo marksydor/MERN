@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0
+	;
+}
+
+.scroll {
+	overflow-y: scroll;
+	max-height: 200px;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.w720 {
+	max-width: 720px;
+}
+
+.nav {
+	margin: 0;
+}

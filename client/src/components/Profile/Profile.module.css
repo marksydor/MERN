@@ -1,0 +1,12 @@
+.avatar {
+	width: 256px;
+	max-height: 256px;
+	margin: 10px auto;
+}
+
+.profileForm {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+

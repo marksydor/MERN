@@ -1,0 +1,35 @@
+.avatar {
+	max-width: 64px;
+	max-height: 64px;
+}
+
+.textareaItem {
+	width: calc(100% - 74px);
+	height: 64px;
+	resize: none;
+}
+
+.pagination {
+	width: 40%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.pagination nav {
+	display: inline-block;
+}
+
+.avatar2 {
+	max-width: 128px;
+	max-height: 128px;
+}
+
+.btn {
+	border: none;
+}
+
+.newItemImg {
+	max-width: 690px;
+	max-height: 512px;
+	margin: 0 auto;
+}

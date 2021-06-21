@@ -1,0 +1,41 @@
+.sidebar {
+	background-color: green;
+	grid-area: sidebar;
+	border-radius: 0.5em;
+	padding: 10px;
+	height: 190px;
+}
+
+nav {
+	margin-top: 5%;
+}
+
+
+
+.navbtn {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+	margin: 0 5px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.3);
+	transition: 0.2s;
+}
+
+.navbtn:hover {
+	background: rgba(0, 0, 0, 0.2);
+	transition: 0.8s;
+}
+
+.btnRadUp {
+	border-radius: 0.5em 0.5em 0 0;
+}
+
+.btnRadDown {
+	border-radius: 0 0 0.5em 0.5em;
+}
+
+a.activeLink {
+	background: rgba(0, 0, 0, 0.2);
+}

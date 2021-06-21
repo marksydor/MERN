@@ -1,0 +1,35 @@
+.wrapperImg {
+	margin: 0 auto;
+	object-fit: cover;
+	max-height: 256px;
+}
+
+.intextImg {
+	max-width: 400px;
+	width: 100%;
+    height: auto;
+	object-fit: cover;
+	margin: 10px;
+}
+
+.wideImg {
+	width: 90%;
+	margin: 0 auto;
+	margin-left: 5%;
+	object-fit: cover;
+}
+
+.fLeft {
+	float: left;
+}
+
+.fRight {
+	float: right;
+}
+
+.SectionDiv {
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+}
+

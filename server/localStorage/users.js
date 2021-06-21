@@ -1,0 +1,28 @@
+const users = [
+	{userId: 1, fullName: 'Mark Dikiu', followed: true, location: 'село Залупки', status: 'helooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 2, fullName: 'Rolon Dudu', followed: true, location: 'село міського типу', status: 'heloooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 3, fullName: 'Dark Vova', followed: false, location: 'село і люди', status: 'helooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 4, fullName: 'Hinata Uzumaki', followed: true, location: 'не село', status: 'heloooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 5, fullName: 'Pepa Pig', followed: false, location: 'село? я хз', status: 'helooooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 6, fullName: 'Mark Dikiu', followed: true, location: 'село Залупки', status: 'helooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 7, fullName: 'Rolon Dudu', followed: true, location: 'село міського типу', status: 'heloooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 8, fullName: 'Dark Vova', followed: false, location: 'село і люди', status: 'helooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 9, fullName: 'Hinata Uzumaki', followed: true, location: 'не село', status: 'heloooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 10, fullName: 'Pepa Pig', followed: false, location: 'село? я хз', status: 'helooooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 11, fullName: 'Mark Dikiu', followed: true, location: 'село Залупки', status: 'helooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 12, fullName: 'Rolon Dudu', followed: true, location: 'село міського типу', status: 'heloooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 13, fullName: 'Dark Vova', followed: false, location: 'село і люди', status: 'helooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 14, fullName: 'Hinata Uzumaki', followed: true, location: 'не село', status: 'heloooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 15, fullName: 'Pepa Pig', followed: false, location: 'село? я хз', status: 'helooooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 16, fullName: 'Mark Dikiu', followed: true, location: 'село Залупки', status: 'helooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 17, fullName: 'Rolon Dudu', followed: true, location: 'село міського типу', status: 'heloooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 18, fullName: 'Dark Vova', followed: false, location: 'село і люди', status: 'helooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 19, fullName: 'Hinata Uzumaki', followed: true, location: 'не село', status: 'heloooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 20, fullName: 'Pepa Pig', followed: false, location: 'село? я хз', status: 'helooooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 21, fullName: 'Mark Dikiu', followed: true, location: 'село Залупки', status: 'helooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 22, fullName: 'Rolon Dudu', followed: true, location: 'село міського типу', status: 'heloooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 23, fullName: 'Dark Vova', followed: false, location: 'село і люди', status: 'helooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 24, fullName: 'Hinata Uzumaki', followed: true, location: 'не село', status: 'heloooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"},
+	{userId: 25, fullName: 'Pepa Pig', followed: false, location: 'село? я хз', status: 'helooooooo', photoUrl: "https://api.chernomorsk.com.ua/uploads/media/posts/0001/25/thumb_24219_posts_big.jpeg"}];
+
+exports.users = users;

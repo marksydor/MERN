@@ -1,0 +1,68 @@
+.dialogs {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 3fr 10fr;
+	grid-template-rows: 500px 1fr;
+	grid-gap: 10px;
+	grid-template-areas:
+	"dialogs messages"
+	"dialogs textarea"
+}
+
+.dialogsItems {
+	grid-area: dialogs;
+}
+
+.dialogItem {
+	text-align: center;
+	margin: 0 5px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0.3);
+	transition: 0.2s;
+	border-radius: 0.5em;
+}
+
+.dialogItem a {
+	text-decoration: none;
+	color: white;
+}
+
+.dialogItem:hover {
+	background: rgba(0, 0, 0, 0.2);
+	transition: 0.8s;
+}
+
+.btnRadUp {
+	border-radius: 0.5em 0.5em 0 0;
+}
+
+.btnRadDown {
+	border-radius: 0 0 0.5em 0.5em;
+}
+
+.messages {
+	grid-area: messages;
+	border-radius: 0.5em;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.textarea {
+	grid-area: textarea;
+	border-radius: 0.5em;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.textarea textarea {
+	height: 60px;
+	resize: none;
+	width: 84%;
+}
+
+.textarea button {
+	height: 30px;
+	margin-top: 20px;
+	width: 80px;
+}
